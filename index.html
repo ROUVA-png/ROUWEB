@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>For Rita ❤️</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<canvas id="canvas"></canvas>
+
+<div id="overlay">
+  <h1 id="hint">Watch out for my heart
+    <br>Catch it when you see it or loose it to the world 💖</h1>
+</div>
+
+<div id="final" class="hidden">
+  <img src="character.png" alt="Character">
+  <h2 id="final-text"></h2>
+
+  <div id="choices" class="hidden">
+    <button onclick="acceptValentine('yes')">YES ❤️</button>
+    <button class="glow" onclick="acceptValentine('absolutely')">
+      ABSOLUTELY YES 💖
+    </button>
+  </div>
+</div>
+
+<div id="celebrate" class="hidden">
+  <h1 id="celebrate-text"></h1>
+  <div id="date-card">
+    <h2>💝 Valentine’s Date 💝</h2>
+    <p>Dinner • Laughs • Kisses • You & Me</p>
+  </div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
